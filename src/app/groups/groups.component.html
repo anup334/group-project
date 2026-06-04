@@ -1,0 +1,35 @@
+<div class="container">
+
+    <h1>Class Groups</h1>
+
+    <div class="button-container">
+
+        <button (click)="showGroup('A')">Group A</button>
+
+        <button (click)="showGroup('B')">Group B</button>
+
+        <button (click)="showGroup('C')">Group C</button>
+
+        <button (click)="showGroup('D')">Group D</button>
+
+        <button (click)="showGroup('E')">Group E</button>
+
+        <button (click)="showGroup('F')">Group F</button>
+
+    </div>
+
+    <div class="member-box" *ngIf="selectedGroup">
+
+        <h2>Group {{selectedGroup}}</h2>
+
+        <ul>
+
+            <li *ngFor="let member of groups[selectedGroup]">
+                {{member}}
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
