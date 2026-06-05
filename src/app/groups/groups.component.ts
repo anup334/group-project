@@ -30,6 +30,7 @@ export class GroupsComponent {
     B: [
       'Member 1',
       'Member 2',
+      'Bapu',
       'Arup Mohanty',
       'Member 4',
       'Member 5',
