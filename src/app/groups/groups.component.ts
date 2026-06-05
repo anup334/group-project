@@ -31,6 +31,7 @@ export class GroupsComponent {
       'Member 1',
       'Member 2',
       'Bapu',
+      'Arup Mohanty',
       'Member 4',
       'Member 5',
       'Member 6',
